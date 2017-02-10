@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+/*@import url(https://fonts.googleapis.com/css?family=Oswald);*/
+@import url(https://fonts.googleapis.com/css?family=Cuprum:700);
+@import url(https://fonts.googleapis.com/css?family=Righteous|Pontano+Sans|Comfortaa|Hammersmith+One|Fugaz+One);
+@import url(../img/foundation-icons.css);
+h1, h2, h3, h4, h5 {
+    font-family: 'Fugaz One', cursive !important;
+    /*font-family: 'Oswald', cursive !important;*/
+}
+h1 a {
+    color: white !important;
+    font-family: "Pacifico",cursive !important;
+    font-size: 25px !important;
+    font-weight: normal;
+}
+#loading {
+    background-image: url("../img/loading.gif");
+    display: block;
+    height: 24px;
+    margin: 0 auto;
+    width: 24px;
+}
+.listbox {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin: 2.5% 0;
+    border: 5px solid rgb(178,97,20);
+    /*min-height: 260px;*/
+    border-radius: 10px;
+}
+.listbox tr:nth-of-type(even) {
+    background-color: white;
+}
+.listitems {
+    text-align: center;
+    /*margin-bottom: 5%;*/
+    border: 4px solid #EFEFEF;
+}
+.listitemimg img {
+    text-align: center;
+    padding-top: 5%;
+    max-width: 190px;
+}
+.indexbottomitems h4 {
+    text-align: center;
+}
+/*@media only screen and (min-width: 64.0625em) {
+    .large-4 {
+        width: 31.13333% !important;
+    }
+}*/
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: black;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.indexdiv {
+    text-align: center;
+    padding: 10% 5%;
+}
+.orange, .orange h2 {
+    background-color: rgb(255,134,27);
+    color: white;
+}
+a {
+    color: rgb(3,143,178);
+}
+.zurb-links a {
+    color: white;
+}
+/*nav {
+	text-align: center;
+	margin: 0 auto;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+}*/
+#body {
+    min-height: 100vh;
+}
+table {
+	width: 100%;
+}
+#NoItems {
+	text-align: center;
+}
+#drop1 li {
+	padding-left: 5%;
+	padding-top: 5%;
+}
+.searchimg {
+    float: left;
+    margin-right: 2%;
+}
+/*#item-header {
+	width: 70%;
+	float: left;
+}
+#item-img {
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+}*/
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Custom styles */
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 25px;
+  left: -50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -50px;
+  bottom: 25px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+
+.corner-ribbon.white{background: #f0f0f0; color: #555;}
+.corner-ribbon.black{background: #333;}
+.corner-ribbon.grey{background: #999;}
+.corner-ribbon.blue{background: #39d;}
+.corner-ribbon.green{background: #2c7;}
+.corner-ribbon.turquoise{background: #1b9;}
+.corner-ribbon.purple{background: #95b;}
+.corner-ribbon.red{background: #e43;}
+.corner-ribbon.orange{background: rgb(178, 97, 20) !important;}
+.corner-ribbon.yellow{background: #ec0;}
+
+.split.button {
+  width: 100%; }
+  .split.button.facebook {
+    background: #3b5998;
+    text-transform: uppercase; }
+    .split.button.facebook span {
+      background: #2d4373; }
+      .split.button.facebook span:after {
+        border: none;
+        font-family: "foundation-icons";
+        content: "\f1c4";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem; }
+  .split.button.twitter {
+    background: #55acee;
+    text-transform: uppercase; }
+    .split.button.twitter span {
+      background: #2795e9; }
+      .split.button.twitter span:after {
+        border: none;
+        font-family: "foundation-icons";
+        content: "\f1e4";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem; }
+  .split.button.google {
+    background: #d50f25;
+    text-transform: uppercase; }
+    .split.button.google span {
+      background: #a50c1d; }
+      .split.button.google span:after {
+        border: none;
+        font-family: "foundation-icons";
+        content: "\f1ca";
+        font-size: 2rem;
+        line-height: 0.25rem;
+        margin-left: -0.7rem; }
+  .split.button.left-icon {
+    text-align: right; }
+    .split.button.left-icon span {
+      left: 0; }
+
+
+.zurb-footer-bottom {
+    background: #333 none repeat scroll 0% 0%;
+    padding: 24px 0px 10px;
+}
+.zurb-footer-bottom .zurb-links {
+    margin: 0px;
+    display: inline-block;
+    padding-bottom: 0px;
+}
+.zurb-footer-bottom .zurb-links li {
+    display: block;
+    float: left;
+    margin-left: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+.zurb-footer-bottom .home-social {
+    display: block;
+    float: right;
+    margin-bottom: 8px;
+}
+.zurb-footer-bottom .home-social a.twitter {
+    background-position: center 0px;
+}
+.zurb-footer-bottom .home-social a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: transparent url("../img/icons/social.png") no-repeat scroll center 0px;
+}
+.medium-push-8 {
+    position: relative;
+    left: 66.6667%;
+}

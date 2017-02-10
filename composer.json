@@ -1,0 +1,9 @@
+{
+  "require": {
+    "ext-soap": "*",
+    "ext-mbstring": "*",
+    "sokil/php-mongo": "dev-master",
+    "mongodb/mongodb": "^1.0.0"
+        
+  }
+}
